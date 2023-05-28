@@ -104,4 +104,3 @@ What can i help you with?
 
 - `nlp2fn exec -m "Merge all videos inside from {folder_path}"`
 
-Split /Users/jennie/Desktop/nlp2fnlibs/pyvideoeditor/testvideo/test.mp4 On Every Scene Change
