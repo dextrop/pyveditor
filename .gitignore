@@ -1,0 +1,6 @@
+main.py
+venv
+*.pyc
+.idea/
+*.mp4
+test*
