@@ -59,9 +59,7 @@ You can use PyVEditor features through single commands using the `nlp2fn exec` c
 - `nlp2fn exec -m "Split {video_link}"`
 - `nlp2fn exec -m "Download Facebook video {link}"`
 - `nlp2fn exec -m "Download YouTube video {link}"`
-- `nlp2fn exec -m "Merge {videos}
-
-"`
+- `nlp2fn exec -m "Merge {videos}"`
 - `nlp2fn exec -m "Merge all videos inside from {folder_path}"`
 
 Make sure to replace `{video_link}`, `{link}`, `{videos}`, and `{folder_path}` with the appropriate values.
