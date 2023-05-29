@@ -24,38 +24,7 @@ pip3 install nlp2fn
 2. Run the nlp2fn software:
 
 ```shell
-nlp2fn run
-```
-
-If you haven't used nlp2fn before, it will prompt you to add a source. If you have used it before, you can add a source by entering the following prompt statement:
-
-```shell
-What can I help you with?
->> add source
-```
-
-**Output**
-
-```shell
-A source is a collection of functions that can be executed by nlp2fn.
-Each function follows a specific format, such as:
-# Write your list of execute statements, which will refer the user to this function.
-# Parameters required by the event are properly captured with {param_name}.
-statement = ["download {link} to {output_dir}"]
-
-# This should be the main function of your event.
-# Once executed, it should perform the necessary operations and return a result.
-def execute(args):
-    link = args[0]
-    output_dir = args[1]
-    # Complete the function.
-    return True
-```
-
-To add the PyVEditor source, input the source link: `https://github.com/dextrop/pyveditor`
-
-```shell
-Enter the source URL or local directory path: https://github.com/dextrop/pyveditor
+nlp2fn add source https://github.com/dextrop/pyveditor
 ```
 
 ## Using PyVEditor
