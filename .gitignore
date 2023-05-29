@@ -4,3 +4,4 @@ venv
 .idea/
 *.mp4
 test*
+.DS_Store
